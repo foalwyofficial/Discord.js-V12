@@ -3,7 +3,7 @@ var figlet = require('figlet');
 module.exports = {
     run: async(client, message, args, tolls) => {
 //command
-var maxLen = 100 // Kendiniz en y�ksek harf sayisini ayarlayabilirsiniz
+var maxLen = 100 
   
   if(args.join(' ').length > maxLen) return message.channel.send(`The max length is ${maxLen}!`) 
   
