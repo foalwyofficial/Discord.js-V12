@@ -4,5 +4,5 @@ module.exports = async guild => {
         guildID: guild.id
     });
     guild.language = "en";
-    console.log(`[JOINED GUILD]: ${guild.name} | ${guild.id}`);
+    console.log(`[JOINED GUILD]: ${guild.name} | ${guild.id}`)
 }
