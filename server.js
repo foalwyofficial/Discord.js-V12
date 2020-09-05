@@ -28,7 +28,7 @@ client.on("ready", () => { //When bot is ready
   console.log("I am Reday to Go")
 })
 
-client.on("message", async message => {
+client.on("message", async message => { // Message Events
    let prefix = await db.fetch(`prefix_${message.guild.id}`)
    if(prefix == null) {
     prefix = "p," 
